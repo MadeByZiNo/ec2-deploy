@@ -138,7 +138,7 @@ docker ps
 ### 1. Docker Hub 액세스 토큰 생성
 
 1. Docker Hub 로그인 (https://hub.docker.com/)
-2. Account Settings → Security
+2. Settings → Personal access tokens
 3. "New Access Token" 클릭
 4. 토큰 이름 입력 (예: github-actions)
 5. 생성된 토큰 복사 (재표시 안됨!)
