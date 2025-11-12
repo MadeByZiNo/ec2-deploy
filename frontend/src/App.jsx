@@ -21,7 +21,7 @@ const App = () => {
     }
   );
 
-  // 백엔드 API URL (nginx가 /api를 backend:3000으로 프록시)
+  // 백엔드 API URL
   const API_URL = "/api/todos";
 
   // Todo 목록 조회
