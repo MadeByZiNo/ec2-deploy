@@ -21,8 +21,8 @@ const App = () => {
     }
   );
 
-  // 백엔드 API URL
-  const API_URL = "http://localhost:3000/api/todos";
+  // 백엔드 API URL (nginx가 /api를 backend:3000으로 프록시)
+  const API_URL = "/api/todos";
 
   // Todo 목록 조회
   useEffect(() => {
